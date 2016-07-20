@@ -1,6 +1,3 @@
-/*
- * Base structure
- */
 html,
 body {
   font-family: 'Trocchi', serif;
@@ -9,11 +6,11 @@ body {
   line-height: 2;
   font-weight:100;
   height: 100%;
-  text-align: left; 
+  text-align: left;
 }
 h4{
-text-transform: uppercase;
-    font-size: 14px;
+  text-transform: uppercase;
+  font-size: 14px;
   }
 
 hr{
@@ -34,33 +31,106 @@ a:hover, a:focus {
   color: #a2afb3;
   text-decoration: underline;
 }
-
-a:focus {
-  outline: thin dotted #333333;
-  outline-offset: -2px;
+.navbar-fixed-top{
+  background-color: rgba(255, 255, 255, 0.74);
+  border: none;
+}
+.navbar-toggle{
+  padding: 0;
+  margin-bottom: 0;
 }
 
- 
-
-/*about me*/
-section {
-    -webkit-backface-visibility: hidden;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background: white;
-    position: relative;
-    z-index: 3;
+.navbar-brand{
+ padding-top: 15px;
 }
 
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-.box{
+/*Section Intro*/
+.intro {
+  border-top: 10px solid rgba(255, 255, 255, .46);
+  color: white;
+  padding-bottom: 4em;
+  overflow: hidden; 
+  position: relative; 
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
   text-align: center;
-  padding: 5px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+
+}
+  .intro::before {
+    content: ' ';
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    background: url("../img/pic2.jpg") no-repeat center center;
+    background-size: cover;
+    will-change: transform;
+    z-index: -1;
+  }
+
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+}
+.intro .intro-body .intro-text {
+  font-size: 18px;
 }
 
+@media (min-width: 768px) {
+body { 
+	background: url("../img/pic2.jpg") no-repeat center center;
+	background-attachment: scroll;
+ 
+}
+
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading  {
+    font-size: 100px;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+  .fa{
+    padding: 0;
+  }
+
+}
+
+
+
+/* Section About*/
+section {
+ padding-top: 100px;
+ padding-bottom: 50px;
+ background: white;
+ position: relative;
+ z-index: 3;
+ -webkit-backface-visibility: hidden;
+}
+.thumb-middle {
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+    height: 160px;
+    position: relative;
+    text-align: center;
+    width: 160px;
+    display: block;
+    margin: -180px auto 100px;
+}
 .linda{
   text-align:center;
   color:black;
@@ -80,7 +150,6 @@ section {
   font-size:30px;
   line-height:30px;
   letter-spacing:3px;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 .linda p{
   margin-bottom: 50px;
@@ -90,13 +159,14 @@ section {
   font-size:18px;
   line-height: 1.5;
   color:#C4C4C4;
-  font-family:"Montserrat",Helvetica,Arial,sans-serif;
 }
-
 #about .skills .row {
     padding: 10px;
 }
-
+.box{
+  padding: 5px;
+  margin: 5px;
+}
 /*SKILLBAR MODULE*/
 .skillbar {
   position:relative;
@@ -119,7 +189,6 @@ section {
   -o-transition-property:width, background-color;
   transition-property:width, background-color;
 }
-
 .skillbar-title {
   position:absolute;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -137,7 +206,6 @@ section {
   border-top-left-radius:3px;
   border-bottom-left-radius:3px;
 }
-
 .skillbar-title span {
   display:block;
   background:#000;
@@ -151,7 +219,6 @@ section {
   border-top-left-radius:3px;
   border-bottom-left-radius:3px;
 }
-
 .skillbar-bar {
   height:15px;
   width:0px;
@@ -160,7 +227,6 @@ section {
   -moz-border-radius:3px;
   -webkit-border-radius:3px;
 }
-
 .skill-bar-percent {
   position:absolute;
   right:10px;
@@ -173,64 +239,49 @@ section {
   font-weight:700;
 }
 
-.thumb-middle {
-    border: 4px solid #FFFFFF;
-    border-radius: 50%;
-    height: 160px;
-    position: relative;
-    text-align: center;
-    width: 160px;
-    display: block;
-    margin: -180px auto 100px;
-}
-
-/*  Section cv */
-
-section #cv{
-  background-color: #ddd;
-}
-
-/* CV MODULE */
+/*Section CV*/
 .cv-wrapper {
   padding-bottom:50px;
 }
-
 .cv-wrapper h3 {
   margin-top:0px;
 }
-.cv-wrapper .cv .desc {
-  color: #aaa;
-}
-
 .cv-wrapper .cv:nth-child(even) {
   padding-top: 90px;
 }
-
-.cv-wrapper .cv .title {
-}
-
 .cv-wrapper .cv .main {
-
   text-align: justify;
-}
-
-.cv-wrapper .cv .date {
-  color: #aaa;
 }
 .cv-wrapper .cv .date .fa,
 .cv-wrapper .cv .main .fa{
-  color:#D3D3D3;
+  color:#ddd;
+  font-size: 14px;
+
+}
+.date{
+  color:#ddd;
+  font-size: 14px;
+
+}
+.space{
+  margin:0 auto;
+  margin-top: 50px;
+  margin-bottom:50px;
 }
 
+/* Section Contact*/
 #contact {  
   background: #2F3238;
   color: #777777;
+}
+#contact h2 {
+  margin-top: 0;
+  color:#777777;
 }
 #contact h3 {
   font-weight:700;
   color: white;
 }
-
 #contact .hero h2{
   color:#AA9159;
 }
@@ -242,14 +293,12 @@ section #cv{
   color: white;
   border: none;
 }
-
 #contact .btn-submit:hover,
 #contact .btn-submit:focus,
 #contact .btn-submit:active,
 #contact .btn-submit.active {
   background: #ff7c6f;
 }
-
 #contact input,
 #contact textarea {
   background: none repeat scroll 0 0 rgba(39,41,46,1);
@@ -261,50 +310,23 @@ section #cv{
   padding: 15px;
   resize: none;
 }
-
 #contact .form-group {
   margin-bottom: 5px;
 }
-
-#contact h2 {
-  margin-top: 0;
-  color:#777777;
-}
-
 #contact address{
   margin-bottom:100px;
 }
-
-#contact #contact-form-response {
-  margin-top: 10px;
-}
-
+/*Social Icons*/ 
 #contact .social-icons {
   margin-top:50px;
   margin-bottom:50px;
 }
 #contact .social-icons .fa{
   font-size: 35px;
-}
-#contact .social-icons a{
-  width:50px; 
-}
-#contact .background-icon{
-  position:absolute;
-  width:100%;
-  height:100%;
-  top:-50px;
-  padding-right:30px;
-}
-#contact .background-icon .fa{
-    font-size: 250px;
-    line-height: 250px;
-    opacity: 0.06;
+  padding: 5px; 
 }
 
-/*
- * svg
- */
+/* svg */
 .svg-wrapper{
   height:100px;
   width:300px;
@@ -332,10 +354,7 @@ section #cv{
   padding-top:100px;
 }
 
-/*
- * BUTTONS
- */
-
+/* BUTTONS */
 .btn-default {
   font-weight: 100;
   letter-spacing:3px;
@@ -348,13 +367,13 @@ section #cv{
   padding-top:15px;
   padding-bottom:15px;
   color: #676767;
+  background-color: rgba(255, 255, 255, 0.74);
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
-
 .btn-default:hover, 
 .btn-default:focus, 
 .btn-default:active, 
@@ -366,109 +385,6 @@ section #cv{
   opacity: 1;
 }
 
-
-.navbar-custom {
-  margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  text-transform: uppercase;
-  font-family:  Helvetica, Arial, sans-serif;
-  background-color: black;
-}
-.navbar-custom .navbar-toggle {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  font-size: 12px;
-}
-.navbar-custom .navbar-toggle:focus,
-.navbar-custom .navbar-toggle:active {
-  outline: ;
-}
-
-.navbar-custom a {
-  color: tomato;
-}
-.navbar-collapse .navbar-nav > li.active {
-    border-bottom: 3px solid black;
-}
-.navbar-custom .nav li a {
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-}
-.navbar-custom .nav li a:hover {
-  color: #ddd;
-  outline: none;
-  background-color: transparent;
-}
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
-  outline: none;
-  background-color: transparent;
-}
-.navbar-custom .nav li.active {
-  outline: none;
-}
-.navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-.navbar-custom .nav li.active a:hover {
-  color: white;
-}
-@media (min-width: 768px) {
-  .navbar-custom {
-    padding: 20px 0;
-    border-bottom: none;
-    letter-spacing: 1px;
-    background: transparent;
-    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-  }
-  .navbar-custom.top-nav-collapse {
-    padding: 0;
-    background: black;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  }
-
-}
-.intro {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  color: white;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-image: url("../img/2.jpg");
-  background-size: cover; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.intro .intro-body {
-  display: table-cell;
-  vertical-align: middle;
-}
-.intro .intro-body .brand-heading {
-  font-size: 40px;
-}
-.intro .intro-body .intro-text {
-  font-size: 18px;
-}
-@media (min-width: 768px) {
-  .intro {
-    height: 100%;
-    padding: 0;
-  }
-  .intro .intro-body .brand-heading {
-    font-size: 100px;
-  }
-  .intro .intro-body .intro-text {
-    font-size: 26px;
-  }
-}
 
 /*footer*/
 footer {
@@ -482,9 +398,4 @@ footer {
   background: #27292E;
   z-index:3;
   position:relative;
-}
-footer h6{
-  padding-top: 30px;
-  font-size: 14px;
-
 }
