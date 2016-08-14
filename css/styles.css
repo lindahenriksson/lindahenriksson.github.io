@@ -80,6 +80,9 @@ a:hover, a:focus {
   font-size: 18px;
   color: #a9a9a9
 }
+section.wrapper{
+  margin: 0px;
+}
 /* Section About*/
 section {
  width: 100%;
@@ -397,7 +400,6 @@ footer {
   }
   section.wrapper{
     margin-right: 15px;
-    margin-left: 15px;
   }
   section#resume{
     padding-top: 0px;
