@@ -370,7 +370,8 @@ footer {
   body {
     overflow-x: hidden;
     background: url("../img/pic2.jpg") no-repeat center center;
-    background-attachment: scroll; }
+    background-attachment: scroll;
+  }
   .intro {
     height: 100%;
     padding: 0; }
