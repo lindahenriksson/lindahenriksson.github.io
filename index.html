@@ -1,72 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Min Online-Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Min Online-Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#about-me">Om mig</a></li>
-        <li><a href="#my-work">Mitt arbete</a></li>
-        <li><a href="#contact-me">Kontakta mig</a></li>
-      </ul>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Linda Henriksson</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link href="public/css/styles.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Playfair+Display+SC' rel='stylesheet' type='text/css'>
+  </head>
+  <body id="pagetop">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <a class="navbar-brand" href="#pagetop">Linda Henriksson</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="page-scroll" href="#about">ABOUT</a></li>
+            <li><a class="page-scroll" href="#project">PROJECT</a></li>
+            <li><a class="page-scroll" href="#resume">RESUME</a></li>
+            <li><a class="page-scroll" href="#contact">CONTACT</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
-  </header>
 
-  <main>
-    <section id="about-me">
-      <h2>Om mig</h2>
-      <p>Här kan du skriva en kort beskrivning om dig själv.</p>
-    </section>
+    <!-- Intro Header -->
+    <header class="intro">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <h1 class="brand-heading">Linda Henriksson</h1>
+              <a href="#about" class="btn btn-default btn-lg page-scroll">GET TO KNOW ME!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
+  <!-- About Section -->
+<section id="about">
+  <img src="public/img/img.jpg" class="thumb-middle">
+  <div class="container">
+    <div class="row">
+      <div class="linda col-sm-6 col-sm-offset-3">
+        <h2>Linda Henriksson</h2>
+        <p>Short fact about me.</p>
+        <div class="space"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="skills">
+          <div class="row">
+            <div class="col-sm-3">
+              <h4>Profile</h4>
+            </div>
+            <div class="col-sm-9">
+              <p>Interaction Designer</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <h4>Social</h4>
+            </div>
+            <div class="col-sm-9">
+              <a href="https://github.com/lindahenriksson">
+                <i class="fa fa-github fa-lg"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/linda-henriksson-7759aa115?trk=nav_responsive_tab_profile_pic">
+                <i class="fa fa-linkedin fa-lg"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UCIwAGsWAi9bjvsUh-KD2EaQ/featured?view_as=subscriber">
+                <i class="fa fa-youtube fa-lg"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <h4>Skills</h4>
+            </div>
+            <div class="col-sm-8">
+              <div class="skillbar clerfix" data-percent="80%">
+                <div class="skillbar-title" style="background:#ddd">
+                  <span>Microsoft</span>
+                </div>
+                <div class="skillbar-bar" style="width: 85%; background:#000">          
+                </div>
+                <div class="skill-bar-percent">Good</div>
+              </div>
+              <div class="skillbar clerfix" data-percent="80%">
+                <div class="skillbar-title" style="background:#ddd">
+                  <span>Adobe</span>
+                </div>
+                <div class="skillbar-bar" style="width: 80%; background:#000">          
+                </div>
+                <div class="skill-bar-percent">Good</div>
+              </div>
+              <div class="skillbar clerfix" data-percent="30%">
+                <div class="skillbar-title" style="background:#ddd">
+                  <span>Programming</span>
+                </div>
+                <div class="skillbar-bar" style="width:40%; background:#000">          
+                </div>
+                <div class="skill-bar-percent">Basic</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <h4>Contact</h4>
+            </div>
+            <div class="col-sm-9">
+              <a class="mail" href="mailto:frauhenriksson@gmail.com">Do you have a question? Click here.</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+      <p class="box small">Hi,
+		My name is Linda Henriksson, I am born in October 1993 in a lovely small town in Sweden. I grew up in the south of Sweden or the heart of Småland.
+		I got born with creativeness in my body, so since I was really small have I always help my mum and dad to renovation the house or do my own small design of furniture. When I was 15 years old, I move from home but not so far away from my family just to the next town Växjö. I went the Gymnasium here and this three year was some of the most funnies years in my life, I learned to do my own furniture, how colors work and so on..it was awesome.
+		But then I decided to go on an adventure, my biggest dream was to move to California and work as an Au Pair, but I didn’t come to California. I come to Zurich, Switzerland as An Au Pair, and since 2012 have I been in love in a city I didn’t know existed from the beginning, Zürich is the place to be, it is so lovely here.
+		Some years later I found my future Husband, we got married, had two kids and here we are.</p>
+		<p class="box small">Love,</p>
+		<p class="box small">Linda Henriksson</p>
+    	</div>
+ </div>        
+ <hr>
+</section>
+	<!----Section Project-->
     <section id="my-work">
-      <h2>Mitt arbete</h2>
-      <ul>
-        <li>
-          <h3>Projekt 1</h3>
-          <p>Beskrivning av projekt 1</p>
-          <a href="#">Länk till projekt 1</a>
-        </li>
-        <li>
-          <h3>Projekt 2</h3>
-          <p>Beskrivning av projekt 2</p>
-          <a href="#">Länk till projekt 2</a>
-        </li>
-        <li>
-          <h3>Projekt 3</h3>
-          <p>Beskrivning av projekt 3</p>
-          <a href="#">Länk till projekt 3</a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="contact-me">
-      <h2>Kontakta mig</h2>
-      <form action="#">
-        <label for="name">Namn:</label>
-        <input type="text" id="name" name="name">
-
-        <label for="email">E-postadress:</label>
-        <input type="email" id="email" name="email">
-
-        <label for="message">Meddelande:</label>
-        <textarea id="message" name="message"></textarea>
-
-        <input type="submit" value="Skicka">
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p>Copyright &copy; 
-      <script>
-        document.write(new Date().getFullYear());
-      </script> 
-    Din Namn. Alla rättigheter förbehållna.</p>
-  </footer>
+        <h2>Mitt arbete</h2>
+        <ul>
+          <li>
+            <h3>Projekt 1</h3>
+            <p>Beskrivning av projekt 1</p>
+            <a href="#">Länk till projekt 1</a>
+          </li>
+          <li>
+            <h3>Projekt 2</h3>
+            <p>Beskrivning av projekt 2</p>
+            <a href="#">Länk till projekt 2</a>
+          </li>
+          <li>
+            <h3>Projekt 3</h3>
+            <p>Beskrivning av projekt 3</p>
+            <a href="#">Länk till projekt 3</a>
+          </li>
+        </ul>
+      </section>
+	  
+<!--Section Resume-->
+<section id="resume">
+  <div class="container">
+    <div class="row">
+      <div class="linda col-sm-6 col-sm-offset-3">
+        <h2>Resume</h2>
+        <p>Get to know my skills</p>
+        <div class="space"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    	<div class="cv-wrapper">
+      		<div class="row cv">
+        		<div class="col-lg-3 title">
+         		 <h3>Education</h3>
+        		</div>
+        		<div class="col-lg-6 main">
+          		<h4>Interaction Design / Linnaeus University</h4>
+          		<h5>2018  - Current | Kalmar, Sweden (Remote)</h5>
+          		<p class="box small">
+   		● Graphical design: Designed a magazine and a poster for middle school students.
+		● Design of Graphical Interfaces: Designed a chrome extension for finding corrupt politicians
+		● Web Management: Analyzed and improved websites.
+	  </p>
+        </div class="space">
+        <!--<div class="col-lg-3 date">
+          <p>
+            <small><i class="fa fa-calendar-o"></i> Feb 2017- Present</small>
+          </p>
+          <div class="space"></div>-->
+  </div>
+   <div class="space"></div>
+     <div class="col-lg-6 col-lg-offset-3 main">
+          <h4>Handicrafts Programme/ High School </h4>
+          <h5>2009  - 2012 | Växjö, Sweden</h5>
+          <p class="box small">
+         ● Designing & building  my own wood furniture.
+	 ● Design and layout additions, rooms and furniture. 
+</p>
+        </div>
+        <!--<div class="col-lg-3 date">
+          <p>
+            <small><i class="fa fa-calendar-o"></i> Nov 2016 - Present</small>
+          </p>
+        </div>
+      	</div class="space">
+	
+      			<div class="row cv">
+        			<div class="col-lg-3 title">
+          			<h3>Volunteer Work</h3>
+        			</div>
+	      		<div class="col-lg-6 main">
+          		<h4>SWEA Zürich / Event Planner</h4>
+           		<h6><i class="fa fa-building-o"></i>  2016 - 2018 |  Zürich, Schweiz </h6>
+          		<p class="box small"><i>Cared for one eight-year-old girl.</i></p>
+          		<p class="box small">● Planned and led activities, including reading, with the child.</p>
+			<p class="box small">● Planned and organized events for Swedish professionals (around 20- 50 people).</p>
+			</div> 
+      			<div class="row cv">
+        			<div class="col-lg-3 title">
+					<div class="col-lg-6 main">
+          				<h4>IDCN Zürich / Measurement</h4>
+          				<h6><i class="fa fa-building-o"></i>  Feb  2017 - Oct 2017 |  Zürich,  Schweiz</h6>
+          				<p class="box small"><i>Design, collect and analyze feedback forms from members (100 members).  </i></p>
+   					</div>
+				</div>
+			</div>
+	
+<h3>WORK</h3>
+        </div>
+	        
+        <div class="col-lg-6 main">
+          <h4>DR.ANNA ERAT / Nanny</h4>
+          <h6><i class="fa fa-building-o"></i>  Zürich, Switzerland </h6>
+          <p class="box small"><i>Cared for one eight-year-old girl.</i></p>
+          <p class="box small">● Planned and led activities, including reading, with the child.</p>
+			<p class="box small">● Responsible for getting her to and from after-school activities.</p>
+			<p class="box small">● Helped with homework and school projects.</p>
+        </div>
+        <div class="col-lg-3 date">
+          <p>
+            <small><i class="fa fa-calendar-o"></i> Feb 2015 - May 2017</small>
+          </p>
+        </div>
+         <div class="space"></div>
+        <div class="col-lg-6 col-lg-offset-3 main">
+          <h4>DR.KATJA MEIER-MÜLLER / Nanny</h4>
+          <h6><i class="fa fa-building-o"></i>  Zürich, Switzerland </h6>
+          <p class="box small"><i>Supervised and cared for four children (aged 7, 8, 13 and 15).</i></p>
+          <p class="box small">● Took care of light household duties.</p>
+			<p class="box small">● Created a fun, secure, inspiring and comfortable environment.</p>
+			<p class="box small">● Prepared nourishing meals and snacks.</p>
+        </div>
+        <div class="col-lg-3 date">
+          <p>
+            <small><i class="fa fa-calendar-o"></i> Mar 2015 - Jul 2015 </small>
+          </p>
+        </div>
+      </div>-->
+       <div class="space"></div> 
+	<div class="btn-more-info">
+      <p> Do you want to see more?</p>
+        <p><a href="https://www.dropbox.com/s/4jtcdlzlpr88chf/Henriksson_Linda_Resume.pdf?dl=0"
+        class="btn btn-default btn-large"><i class="fa fa-download"></i> Download my Resume</a>
+      </p>
+    </div>
+	  </div>	
+  </div> 
+</section>
+<!--Section Contact-->
+<section id="contact" class="no-section-padding">
+  <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="100" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+    <path d="M0 0 L50 100 L100 0 Z"></path>
+  </svg>
+  <div class="container text-center">
+    <div class="row section-padding">
+      <div class="hero">
+        <h2>Get in touch</h2>
+        <p> No matter what. Just do it.</p>
+      </div>
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2>Linda Henriksson</h2>
+        <address>           
+          Zürich
+          <br>
+          Switzerland
+          <br>
+          <abbr title="Phone"><i class="fa fa-mobile" aria-hidden="true"></i></abbr> (+41) 078-907 66 84
+          <br>
+          <a href="mailto:frauhenriksson@gmail.com">frauhenriksson@gmail.com</a></a>
+        </address>
+      </div>
+    </div><!--row-->
+    <div class="social-icons">
+      <a href="https://github.com/lindahenriksson" target="_blank" class="github"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/linda-henriksson-7759aa115?trk=nav_responsive_tab_profile_pic" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/channel/UCIwAGsWAi9bjvsUh-KD2EaQ/featured?view_as=subscriber">
+                <i class="fa fa-youtube-play fa-lg"></i>
+                </a>
+      <!--<a href="#" target="_blank" class="pinterest"><i class="fa fa-pinterest"></i></a>-->
+    </div>
+  </div><!--container-->    
+</section>
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h6>Copyright &copy; Linda Henriksson 2017</h6>
+      </div>
+      <div class="col-md-4">
+        <ul>
+         <a href="#pagetop" class="btn btn-xs btn-default">
+           <i class="fa fa-arrow-up fa-fw"></i>Back to top</a>
+         </ul>
+       </div>
+     </div>
+   </div>
+ </footer>
+ <!-- jQuery -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script> 
+ <script src="js/jquery.js"></script>
+ <script src="js/scroll.js"></script>
 </body>
 </html>
