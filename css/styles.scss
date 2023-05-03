@@ -139,6 +139,93 @@ p.box{
   margin-bottom: 10px;
   color: #777;
 }
+
+/* Section Project */
+#project {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+#project h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+#project ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#project li {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+#project li:hover {
+  transform: rotateY(180deg);
+}
+
+#project li .flip-card-front, #project li .flip-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+#project li .flip-card-front {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+#project li .flip-card-back {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: rotateY(180deg);
+}
+
+#project li h3 {
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#project li p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#project li a {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+#project li a:hover {
+  background-color: #555;
+}
+
+
 /*SKILLBAR MODULE*/
 .skillbar {
   position:relative;
