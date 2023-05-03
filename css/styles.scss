@@ -157,16 +157,18 @@ p.box{
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
 }
 
 #project li {
-  width: calc(33.33% - 20px);
+  flex: 0 0 calc(33.33% - 20px);
   margin-bottom: 40px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.5s;
+  scroll-snap-align: center;
 }
 
 #project li:hover {
