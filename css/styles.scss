@@ -144,8 +144,7 @@ p.box{
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .gallery-item {
@@ -163,7 +162,10 @@ p.box{
   display: block;
   width: 100%;
   height: auto;
-}
+
+p > section {
+   display: inline-block;
+  }
 
 /*SKILLBAR MODULE*/
 .skillbar {
