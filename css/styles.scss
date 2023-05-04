@@ -141,30 +141,34 @@ p.box{
 }
 
 /* Section Project */
-.gallery {
+.my-work {
   display: flex;
   flex-wrap: wrap;
   
 }
 
-.gallery-item {
+.my-work {
   margin: 10px;
   border: 1px solid #ccc;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
 }
 
-.gallery-item:hover {
+.my-work:hover {
   transform: scale(1.1);
 }
 
-.gallery-item img {
+.my-work img {
   display: block;
   width: 100%;
   height: auto;
 
-p > section {
+.my-work > section {
    display: inline-block;
+  width: 250px;
+    border: 1px outset black;
+    padding: 30px;
+    box-sizing: border-box;
   }
 
 /*SKILLBAR MODULE*/
