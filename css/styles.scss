@@ -141,35 +141,27 @@ p.box{
 }
 
 /* Section Project */
-#my-work {
-  display: flex;
-  flex-wrap: wrap;
-  
+* {
+  box-sizing: border-box;
 }
 
-#my-work div{
-  margin: 10px;
-  border: 1px solid #ccc;
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
-#my-work:hover {
-  transform: scale(1.1);
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-#my-work img {
-  display: block;
-  width: 100%;
-  height: auto;
-
-#my-work > section {
-  display: flex;
-  justify-content: space-around;
-  width: 250px;
-    border: 1px outset black;
-    padding: 30px;
-    box-sizing: border-box;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
   }
 
 /*SKILLBAR MODULE*/
