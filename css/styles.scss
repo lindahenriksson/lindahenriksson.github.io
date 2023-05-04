@@ -164,7 +164,8 @@ p.box{
   height: auto;
 
 #my-work > section {
-   display: inline-block;
+  display: flex;
+  justify-content: space-around;
   width: 250px;
     border: 1px outset black;
     padding: 30px;
