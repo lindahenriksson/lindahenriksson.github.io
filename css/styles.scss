@@ -147,23 +147,23 @@ p.box{
   
 }
 
-.my-work {
+#my-work {
   margin: 10px;
   border: 1px solid #ccc;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
 }
 
-.my-work:hover {
+#my-work:hover {
   transform: scale(1.1);
 }
 
-.my-work img {
+#my-work img {
   display: block;
   width: 100%;
   height: auto;
 
-.my-work > section {
+#my-work > section {
    display: inline-block;
   width: 250px;
     border: 1px outset black;
