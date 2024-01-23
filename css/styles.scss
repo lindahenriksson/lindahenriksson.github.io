@@ -1,5 +1,12 @@
 $primary-font-size: 15px;
-
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
 
 body, html {
   font-family: 'Playfair Display', serif;
