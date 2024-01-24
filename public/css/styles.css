@@ -266,7 +266,25 @@ a.btn.btn-default.btn-large {
     height: 50px;
     line-height: 50px;
     -moz-border-radius: 50%;
-    border-radius: 50%;
+    border-radius: 50%; }
+  .button__icon svg {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 18px;
+    height: 18px;
+    fill: #7c61af;
+    -webkit-transition: fill 0.3s ease-in-out;
+    -o-transition: fill 0.3s ease-in-out;
+    -moz-transition: fill 0.3s ease-in-out;
+    transition: fill 0.3s ease-in-out;}
 
 .btn-default {
   font-family: "Montserrat",Helvetica,Arial,sans-serif;
