@@ -281,6 +281,9 @@ a.btn.btn-default.btn-large {
   border-color: #777;
   color: white;
   opacity: 1; }
+.page-scroll {
+  margin-top: 20px;
+}
 
 /*Footer*/
 footer {
