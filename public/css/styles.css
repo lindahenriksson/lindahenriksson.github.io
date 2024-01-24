@@ -73,8 +73,13 @@ a:hover, a:focus {
 
 .intro .intro-body .brand-heading {
   font-size: 64px; 
-text-transform: uppercase;
 }
+.h1.brand-heading {
+text-transform: uppercase;}
+.p.brand-heading
+{
+text-transform: uppercase;
+padding: 18px 0px 0px 2px}
 
 .intro .intro-body .intro-text {
   font-size: 18px;
