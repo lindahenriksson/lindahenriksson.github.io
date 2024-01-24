@@ -91,12 +91,12 @@ section {
 .thumb-middle {
   border: 4px solid #FFFFFF;
   border-radius: 50%;
-  height: 160px;
+  height: 400px;
   position: relative;
   text-align: center;
-  width: 160px;
+  width: 400px;
   display: block;
-  margin: -180px auto 100px; }
+  margin: -300px auto 100px; }
 
 .linda {
   text-align: center;
