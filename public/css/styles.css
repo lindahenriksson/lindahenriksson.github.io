@@ -91,12 +91,12 @@ section {
 .thumb-middle {
   border: 4px solid #FFFFFF;
   border-radius: 50%;
-  height: 400px;
+  height: 300px;
   position: relative;
   text-align: center;
-  width: 400px;
+  width: 300px;
   display: block;
-  margin: -300px auto 100px; }
+  margin: -250px auto 90px; }
 
 .linda {
   text-align: center;
@@ -281,8 +281,13 @@ a.btn.btn-default.btn-large {
   border-color: #777;
   color: white;
   opacity: 1; }
-.page-scroll {
+a.btn.btn-default.btn-large.page-scroll {
   margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
 }
 
 /*Footer*/
