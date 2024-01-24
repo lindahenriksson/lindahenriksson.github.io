@@ -72,7 +72,9 @@ a:hover, a:focus {
   vertical-align: middle; }
 
 .intro .intro-body .brand-heading {
-  font-size: 64px; }
+  font-size: 64px; 
+text-transform: uppercase;
+}
 
 .intro .intro-body .intro-text {
   font-size: 18px;
@@ -253,7 +255,18 @@ small {
 
 /* BUTTONS */
 a.btn.btn-default.btn-large {
+
   left: 1%; }
+.button__icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 
 .btn-default {
   font-family: "Montserrat",Helvetica,Arial,sans-serif;
