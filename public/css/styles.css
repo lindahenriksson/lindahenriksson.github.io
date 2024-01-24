@@ -257,34 +257,137 @@ small {
 a.btn.btn-default.btn-large {
 
   left: 1%; }
+<!--test---->
+.round-button {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 70px;
+  padding-left: 3px;
+}
+.no-touch .round-button:hover .button__icon {
+  color: #fff;
+}
+.no-touch .round-button:hover .button__icon svg {
+  fill: #ffffff;
+}
+.no-touch .round-button:hover .button__icon::after {
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+     -moz-transform: translateX(-50%) translateY(-50%) scale(1);
+      -ms-transform: translateX(-50%) translateY(-50%) scale(1);
+          transform: translateX(-50%) translateY(-50%) scale(1);
+}
+.no-touch .round-button:hover .button__caption {
+  color: #000000;
+}
+
+.button__caption {
+  font: normal 700 1.4rem/50px "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #000000;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
 .button__icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    -moz-border-radius: 50%;
-    border-radius: 50%; }
-  .button__icon svg {
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 18px;
-    height: 18px;
-    fill: #7c61af;
-    -webkit-transition: fill 0.3s ease-in-out;
-    -o-transition: fill 0.3s ease-in-out;
-    -moz-transition: fill 0.3s ease-in-out;
-    transition: fill 0.3s ease-in-out;}
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #7c61af;
+  text-align: center;
+  color: #7c61af;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  z-index: 1;
+}
+.button__icon::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(0);
+     -moz-transform: translateX(-50%) translateY(-50%) scale(0);
+      -ms-transform: translateX(-50%) translateY(-50%) scale(0);
+          transform: translateX(-50%) translateY(-50%) scale(0);
+  height: 50px;
+  width: 50px;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  background-color: #7b48b7;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.button__icon svg {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 18px;
+  height: 18px;
+  fill: #7c61af;
+  -webkit-transition: fill 0.3s ease-in-out;
+  -o-transition: fill 0.3s ease-in-out;
+  -moz-transition: fill 0.3s ease-in-out;
+  transition: fill 0.3s ease-in-out;
+}
+.button__icon .material-icons {
+  line-height: 50px;
+  font-size: 1.8rem;
+}
+
+.intro__scroll {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 24px;
+  height: 70px;
+  overflow: hidden;
+}
+.intro__scroll::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 12px;
+  width: 1px;
+  height: 100%;
+  background-color: #ffffff;
+  -webkit-animation: scrollBtn 1s ease-in-out 0s infinite;
+     -moz-animation: scrollBtn 1s ease-in-out 0s infinite;
+          animation: scrollBtn 1s ease-in-out 0s infinite;
+}
+
+<--test end-->
 
 .btn-default {
   font-family: "Montserrat",Helvetica,Arial,sans-serif;
