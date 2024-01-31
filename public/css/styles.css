@@ -40,7 +40,7 @@ a:hover, a:focus {
 
 /*Section Intro*/
 .intro {
-  border-top: 10px;
+   border-top: 10px;
   color: white;
   padding-bottom: 4em;
   overflow: hidden;
@@ -52,6 +52,8 @@ a:hover, a:focus {
   text-align: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover;
+
  
 
 .intro::before {
