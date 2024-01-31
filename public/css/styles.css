@@ -1,5 +1,5 @@
 body, html {
-  font-family: Montserrat", sans-serif;
+  font-family: "Inter-Regular", Helvetica;
   font-size: 18px;
   line-height: 2;
   font-weight: 100;
@@ -52,7 +52,12 @@ a:hover, a:focus {
   text-align: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;}
 
 .intro::before {
   content: ' ';
