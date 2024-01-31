@@ -1,5 +1,5 @@
 body, html {
-  font-family: "Inter-Regular", Helvetica;
+  font-family: Montserrat", sans-serif;
   font-size: 18px;
   line-height: 2;
   font-weight: 100;
@@ -40,7 +40,7 @@ a:hover, a:focus {
 
 /*Section Intro*/
 .intro {
-   border-top: 10px;
+  border-top: 10px;
   color: white;
   padding-bottom: 4em;
   overflow: hidden;
@@ -52,9 +52,7 @@ a:hover, a:focus {
   text-align: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-
- 
+  -o-background-size: cover; }
 
 .intro::before {
   content: ' ';
@@ -100,9 +98,10 @@ section {
 .thumb-middle {
   border: 4px solid #FFFFFF;
   border-radius: 50%;
+  height: 300px;
   position: relative;
   text-align: center;
-  width: auto;
+  width: 300px;
   display: block;
   margin: -250px auto 90px; }
 
@@ -482,5 +481,4 @@ footer {
   .intro .intro-body .intro-text {
     font-size: 26px; }
   .fa {
-    padding: 0; } } 
-
+    padding: 0; } }
