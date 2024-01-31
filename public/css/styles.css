@@ -1,465 +1,1114 @@
-body, html {
-  font-family: Montserrat", sans-serif;
-  font-size: 18px;
-  line-height: 2;
-  font-weight: 100;
-  height: 100%;
-  text-align: left; }
-
-h4 {
-  text-transform: uppercase;
-  color: #333; }
-
-hr {
-  margin-top: 25px;
-  margin-bottom: 25px; }
-
-a {
-  color: #AA9159;
-  text-decoration: none;
-  -webkit-transition: color 0.5s ease 0s;
-  -moz-transition: color 0.5s ease 0s;
-  -o-transition: color 0.5s ease 0s;
-  transition: color 0.5s ease 0s; }
-
-a:hover, a:focus {
-  color: #a2afb3;
-  text-decoration: underline; }
-
-.navbar-fixed-top {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: none; }
-
-.navbar-toggle {
-  padding: 0;
-  margin-bottom: 0;
-  color: #AA9159; }
-
-.navbar-brand {
-  padding-top: 15px; }
-
-/*Section Intro*/
-.intro {
-  border-top: 10px;
-  color: white;
-  padding-bottom: 4em;
-  overflow: hidden;
-  position: relative;
-  display: table;
+.lindahenriksson {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; }
+}
 
-.intro::before {
-  content: ' ';
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  background: url("../img/pic2.jpg") no-repeat center center;
+.lindahenriksson .div {
+  background-image: url(./2024-13-18-03-CET.png);
+  background-position: 50% 50%;
   background-size: cover;
-  will-change: transform;
-  z-index: -1; }
-
-.intro .intro-body {
-  display: table-cell;
-  vertical-align: middle; }
-
-.intro .intro-body .brand-heading {
-  font-size: 64px; 
+  height: 1080px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1956px;
 }
-.h1.brand-heading {
-text-transform: uppercase;}
-.p.brand-heading
-{
-text-transform: uppercase;
-padding: 18px 0px 0px 2px}
 
-.intro .intro-body .intro-text {
-  font-size: 18px;
-  color: #a9a9a9; }
+.lindahenriksson .overlap {
+  height: 1976px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1957px;
+}
 
-/* Section About*/
-section {
-  width: 100%;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  background: rgba(255, 255, 255, 0.96);
-  position: relative;
-  z-index: 3;
-  -webkit-backface-visibility: hidden; }
+.lindahenriksson .header {
+  height: 1080px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1956px;
+}
 
-.thumb-middle {
-  border: 4px solid #FFFFFF;
-  border-radius: 50%;
-  height: 300px;
-  position: relative;
-  text-align: center;
-  width: 300px;
-  display: block;
-  margin: -250px auto 90px; }
+.lindahenriksson .about {
+  background-color: #fffffff5;
+  height: 896px;
+  left: 1px;
+  position: absolute;
+  top: 1080px;
+  width: 1956px;
+}
 
-.linda {
-  text-align: center;
-  color: black; }
+.lindahenriksson .overlap-group {
+  height: 570px;
+  left: 335px;
+  position: absolute;
+  top: 240px;
+  width: 1292px;
+}
 
-.linda .space {
-  width: 150px;
-  height: 2px;
-  background-color: black;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px; }
+.lindahenriksson .overlap-2 {
+  height: 570px;
+  left: 324px;
+  position: absolute;
+  top: 0;
+  width: 968px;
+}
 
-.linda h2 {
-  font-weight: 100;
-  color: black;
-  text-transform: uppercase;
+.lindahenriksson .div-linda {
+  height: 189px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 638px;
+}
+
+.lindahenriksson .heading-linda {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
   font-size: 30px;
+  font-weight: 400;
+  height: 30px;
+  left: 148px;
+  letter-spacing: 3px;
   line-height: 30px;
-  letter-spacing: 3px; }
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  white-space: nowrap;
+  width: 342px;
+}
 
-.linda p {
-  margin-bottom: 50px;
+.lindahenriksson .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+
+.lindahenriksson .span {
+  font-family: "Inter-Thin", Helvetica;
   font-weight: 100;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #777; }
+}
 
-#about .skills .row {
-  padding: 10px; }
+.lindahenriksson .text-wrapper-2 {
+  color: #5000ff;
+  font-family: "KoHo-ExtraLight", Helvetica;
+  font-size: 17.3px;
+  font-weight: 200;
+  height: 27px;
+  left: 237px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 59px;
+  white-space: nowrap;
+  width: 162px;
+}
 
-p.box {
+.lindahenriksson .div-space {
+  background-color: #000000;
+  height: 2px;
+  left: 244px;
+  position: absolute;
+  top: 137px;
+  width: 150px;
+}
+
+.lindahenriksson .rectangle {
+  background-color: #e1ddd0;
+  height: 398px;
+  left: 329px;
+  position: absolute;
+  top: 172px;
+  width: 639px;
+}
+
+.lindahenriksson .div-col-md {
+  height: 398px;
+  left: 329px;
+  position: absolute;
+  top: 172px;
+  width: 639px;
+}
+
+.lindahenriksson .my-name-is-linda {
+  color: #5000ff;
+  font-family: "Inter-Regular", Helvetica;
   font-size: 14px;
-  margin-bottom: 10px;
-  color: #777; }
-
-
-
-/*Section CV*/
-.cv-wrapper {
-  padding-bottom: 50px; }
-
-.cv-wrapper h3 {
-  margin-top: 0px; }
-
-.cv-wrapper .cv:nth-child(even) {
-  padding-top: 90px; }
-
-.cv-wrapper .cv .main {
-  text-align: justify; }
-
-.cv-wrapper .cv .date .fa,
-.cv-wrapper .cv .main .fa {
-  color: #ddd;
-  font-size: 14px; }
-
-.date {
-  color: #ddd;
-  font-size: 14px; }
-
-.space {
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
-small {
-  color: silver;
-  font-family: "Montserrat",Helvetica,Arial,sans-serif; }
-
-/* Section Contact*/
-#contact {
-  background: #2F3238;
-  color: #777777; }
-
-#contact h2 {
-  margin-top: 0;
-  color: #777777; }
-
-#contact h3 {
-  font-weight: 700;
-  color: white; }
-
-#contact .hero h2 {
-  color: #AA9159; }
-
-#contact .hero p {
-  color: white; }
-
-#contact .btn-submit {
-  background: #fa4f3e;
-  color: white;
-  border: none; }
-
-#contact .btn-submit:hover,
-#contact .btn-submit:focus,
-#contact .btn-submit:active,
-#contact .btn-submit.active {
-  background: #ff7c6f; }
-
-#contact input,
-#contact textarea {
-  background: none repeat scroll 0 0 #27292e;
-  border: none;
-  border-radius: 0px;
-  box-shadow: none;
-  height: auto;
-  margin: 0;
-  padding: 15px;
-  resize: none; }
-
-#contact .form-group {
-  margin-bottom: 5px; }
-
-#contact address {
-  margin-bottom: 100px; }
-
-/*Social Icons*/
-#contact .social-icons {
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
-#contact .social-icons .fa {
-  font-size: 35px;
-  padding: 5px; }
-
-/* svg */
-.svg-wrapper {
-  height: 100px;
-  width: 300px;
-  margin: 0 auto; }
-
-.svgcolor-light, .svgcolor-dark {
-  position: relative;
-  top: -2px;
-  z-index: 3; }
-
-.svgcolor-light path {
-  fill: white;
-  stroke: white;
-  stroke-width: 0; }
-
-.svgcolor-dark path {
-  fill: white;
-  stroke: white;
-  stroke-width: 0; }
-
-.no-section-padding {
-  padding-top: 0px; }
-
-.section-padding {
-  padding-top: 100px; }
-
-/* BUTTONS */
-a.btn.btn-default.btn-large {
-
-  left: 1%; }
-<!--test---->
-.round-button {
-  display: inline-block;
-  position: relative;
-  height: 50px;
-  line-height: 50px;
-  padding-right: 70px;
-  padding-left: 3px;
-}
-.no-touch .round-button:hover .button__icon {
-  color: #fff;
-}
-.no-touch .round-button:hover .button__icon svg {
-  fill: #ffffff;
-}
-.no-touch .round-button:hover .button__icon::after {
-  -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
-     -moz-transform: translateX(-50%) translateY(-50%) scale(1);
-      -ms-transform: translateX(-50%) translateY(-50%) scale(1);
-          transform: translateX(-50%) translateY(-50%) scale(1);
-}
-.no-touch .round-button:hover .button__caption {
-  color: #000000;
-}
-
-.button__caption {
-  font: normal 700 1.4rem/50px "Montserrat", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  color: #000000;
-  -webkit-transition: color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out;
-  -moz-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
-}
-
-.button__icon {
-  display: block;
+  font-weight: 400;
+  height: 395px;
+  left: 31px;
+  letter-spacing: 0;
+  line-height: 20px;
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  border: 1px solid #7c61af;
-  text-align: center;
-  color: #7c61af;
-  -webkit-transition: color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out;
-  -moz-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
-  z-index: 1;
+  top: -1px;
+  width: 579px;
 }
-.button__icon::after {
-  content: "";
-  display: block;
+
+.lindahenriksson .div-col-md-2 {
+  height: 55px;
+  left: 0;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%) scale(0);
-     -moz-transform: translateX(-50%) translateY(-50%) scale(0);
-      -ms-transform: translateX(-50%) translateY(-50%) scale(0);
-          transform: translateX(-50%) translateY(-50%) scale(0);
-  height: 50px;
-  width: 50px;
-  -moz-border-radius: 50%;
-       border-radius: 50%;
-  background-color: #7b48b7;
-  z-index: -1;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  top: 189px;
+  width: 468px;
 }
-.button__icon svg {
-  display: block;
+
+.lindahenriksson .heading-degree {
+  color: #333333;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  height: 20px;
+  left: -5px;
+  letter-spacing: 0;
+  line-height: 19.8px;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 18px;
-  height: 18px;
-  fill: #7c61af;
-  -webkit-transition: fill 0.3s ease-in-out;
-  -o-transition: fill 0.3s ease-in-out;
-  -moz-transition: fill 0.3s ease-in-out;
-  transition: fill 0.3s ease-in-out;
-}
-.button__icon .material-icons {
-  line-height: 50px;
-  font-size: 1.8rem;
+  top: 8px;
+  white-space: nowrap;
+  width: 143px;
 }
 
-.intro__scroll {
-  display: block;
+.lindahenriksson .link-bachelor-of {
+  color: #333333;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13.1px;
+  font-weight: 400;
+  height: 36px;
+  left: 158px;
+  letter-spacing: 0;
+  line-height: 20px;
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  right: auto;
-  -webkit-transform: translateX(-50%);
-     -moz-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 24px;
-  height: 70px;
-  overflow: hidden;
+  top: 8px;
+  width: 309px;
 }
-.intro__scroll::after {
-  content: "";
-  display: block;
+
+.lindahenriksson .heading-skills {
+  color: #333333;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  height: 20px;
+  left: -5px;
+  letter-spacing: 0;
+  line-height: 19.8px;
   position: absolute;
-  top: 0;
-  left: 12px;
-  width: 1px;
-  height: 100%;
-  background-color: #ffffff;
-  -webkit-animation: scrollBtn 1s ease-in-out 0s infinite;
-     -moz-animation: scrollBtn 1s ease-in-out 0s infinite;
-          animation: scrollBtn 1s ease-in-out 0s infinite;
+  top: 120px;
+  white-space: nowrap;
+  width: 143px;
 }
 
-<--test end-->
-
-.btn-default {
-  font-family: "Montserrat",Helvetica,Arial,sans-serif;
-  font-weight: 100;
-  border-radius: 3px;
-  border: 2px solid #777;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #777;
-  background-color: #fff;
-  text-transform: uppercase;
-  -webkit-transition: all 0.5s ease 0s;
-  -moz-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s; }
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active,
-.btn-default.active,
-.open.dropdown-toggle.btn-default {
-  background-color: #777;
-  border-color: #777;
-  color: white;
-  opacity: 1; }
-a.btn.btn-default.btn-large.page-scroll {
-  margin-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  
+.lindahenriksson .heading-contact {
+  color: #333333;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 17.6px;
+  font-weight: 500;
+  height: 20px;
+  left: -5px;
+  letter-spacing: 0;
+  line-height: 19.8px;
+  position: absolute;
+  top: 321px;
+  white-space: nowrap;
+  width: 143px;
 }
 
-/*Footer*/
-footer {
-  text-align: center;
-  font-size: 10px;
-  line-height: 1.5;
-  border-radius: 3px;
+.lindahenriksson .link-do-you-have-a {
+  color: transparent;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13.8px;
+  font-weight: 400;
+  height: 40px;
+  left: 163px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 311px;
+  width: 309px;
+}
+
+.lindahenriksson .text-wrapper-3 {
+  color: #333333;
+  font-family: "Inter-Italic", Helvetica;
+  font-style: italic;
+}
+
+.lindahenriksson .text-wrapper-4 {
+  color: #5000ff;
+  font-family: "Inter-Italic", Helvetica;
+  font-style: italic;
+}
+
+.lindahenriksson .div-col-sm {
+  height: 150px;
+  left: 159px;
+  position: absolute;
+  top: 305px;
+  width: 309px;
+}
+
+.lindahenriksson .list-item-figma {
+  color: #333333;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13.6px;
+  font-weight: 400;
+  height: 128px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 5px;
+  width: 309px;
+}
+
+.lindahenriksson .separator {
+  border-color: #eeeeee;
   border-top-style: solid;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background: #27292E;
-  color: silver;
-  z-index: 3;
-  position: relative; }
+  border-top-width: 1px;
+  height: 1px;
+  left: 408px;
+  position: absolute;
+  top: 820px;
+  width: 1140px;
+}
 
-/* @media Device Style*/
-@media (min-width: 768px) {
-  body {
-    overflow-x: hidden;
-    background: url("../img/pic2.jpg") no-repeat center center;
-    background-attachment: scroll;
-  }
-  .intro {
-    height: 100%;
-    padding: 0; }
-  .intro .intro-body .brand-heading {
-    font-size: 80px; }
-  .intro .intro-body .intro-text {
-    font-size: 26px;
-    color: #777; }
-  .fa {
-    padding: 0; } }
+.lindahenriksson .bcab-e-b-wrapper {
+  background-color: transparent;
+  border-radius: 50px;
+  height: 476px;
+  left: 787px;
+  position: absolute;
+  top: 777px;
+  width: 308px;
+}
+
+.lindahenriksson .bcab-e-b {
+  height: 422px;
+  left: 38px;
+  object-fit: cover;
+  position: absolute;
+  top: 30px;
+  width: 306px;
+}
+
+.lindahenriksson .nav {
+  background-color: #ffffffcc;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1956px;
+}
+
+.lindahenriksson .overlap-3 {
+  height: 50px;
+  position: relative;
+}
+
+.lindahenriksson .link-linda {
+  color: #777777;
+  font-family: "Inter-Thin", Helvetica;
+  font-size: 17.7px;
+  font-weight: 100;
+  height: 20px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 14px;
+  white-space: nowrap;
+  width: 139px;
+}
+
+.lindahenriksson .navbar {
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1956px;
+}
+
+.lindahenriksson .list-item-link-ABOUT {
+  color: #777777;
+  font-family: "Inter-Light", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  height: 16px;
+  left: 1381px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+  width: 48px;
+}
+
+.lindahenriksson .list-item-link {
+  color: #777777;
+  font-family: "Inter-Light", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  height: 16px;
+  left: 1479px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+  width: 66px;
+}
+
+.lindahenriksson .list-item-link-2 {
+  color: #777777;
+  font-family: "Inter-Light", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  height: 16px;
+  left: 1590px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+  width: 60px;
+}
+
+.lindahenriksson .list-item-link-3 {
+  color: #777777;
+  font-family: "Inter-Light", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  height: 16px;
+  left: 1695px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+  width: 67px;
+}
+
+.lindahenriksson .social-icon {
+  height: 19px;
+  left: 1791px;
+  position: absolute;
+  top: 15px;
+  width: 73px;
+}
+
+.lindahenriksson .portfolio {
+  background-color: #aba9e0f5;
+  height: 2296px;
+  left: 1px;
+  position: absolute;
+  top: 2376px;
+  width: 1956px;
+}
+
+.lindahenriksson .div-linda-2 {
+  height: 189px;
+  left: 656px;
+  position: absolute;
+  top: 0;
+  width: 644px;
+}
+
+.lindahenriksson .heading-portfolio {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  height: 30px;
+  left: 222px;
+  letter-spacing: 3px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.lindahenriksson .text-wrapper-5 {
+  color: #5000ff;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100;
+  height: 27px;
+  left: 276px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 105px;
+  white-space: nowrap;
+  width: 91px;
+}
+
+.lindahenriksson .div-space-2 {
+  background-color: #000000;
+  height: 2px;
+  left: 246px;
+  position: absolute;
+  top: 187px;
+  width: 150px;
+}
+
+.lindahenriksson .overlap-4 {
+  height: 630px;
+  left: 492px;
+  position: absolute;
+  top: 223px;
+  width: 653px;
+}
+
+.lindahenriksson .overlap-5 {
+  height: 630px;
+  left: 298px;
+  position: absolute;
+  top: 0;
+  width: 355px;
+}
+
+.lindahenriksson .link-read-more {
+  color: #aa9159;
+  font-family: "Inter-ThinItalic", Helvetica;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 100;
+  height: 16px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 320px;
+  white-space: nowrap;
+  width: 69px;
+}
+
+.lindahenriksson .card {
+  height: 630px;
+  left: 30px;
+  position: absolute;
+  top: 0;
+  width: 325px;
+}
+
+.lindahenriksson .pic-jpg {
+  background-image: url(./image.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 225px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 316px;
+}
+
+.lindahenriksson .overlap-group-2 {
+  background-color: #d9d9d9;
+  height: 61px;
+  left: 0;
+  position: absolute;
+  top: 226px;
+  width: 316px;
+}
+
+.lindahenriksson .text-wrapper-6 {
+  color: #333333;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 13.7px;
+  font-weight: 600;
+  height: 32px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.lindahenriksson .link-read-more-2 {
+  color: #5000ff;
+  font-family: "KoHo-ExtraLightItalic", Helvetica;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 200;
+  height: 34px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 27px;
+  width: 316px;
+}
+
+.lindahenriksson .card-2 {
+  height: 287px;
+  left: 5px;
+  position: absolute;
+  top: 343px;
+  width: 320px;
+}
+
+.lindahenriksson .pic-jpg-2 {
+  background-image: url(./pic-jpg-2.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 225px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 316px;
+}
+
+.lindahenriksson .card-3 {
+  height: 287px;
+  left: 0;
+  position: absolute;
+  top: 343px;
+  width: 320px;
+}
+
+.lindahenriksson .pic-jpg-3 {
+  background-image: url(./pic-jpg-5.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 225px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 316px;
+}
+
+.lindahenriksson .card-4 {
+  height: 287px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 320px;
+}
+
+.lindahenriksson .pic-jpg-4 {
+  background-image: url(./pic-jpg.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 225px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 316px;
+}
+
+.lindahenriksson .overlap-6 {
+  height: 1277px;
+  left: 0;
+  position: absolute;
+  top: 938px;
+  width: 1956px;
+}
+
+.lindahenriksson .resume {
+  background-color: #fffffff5;
+  height: 569px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1956px;
+}
+
+.lindahenriksson .overlap-group-3 {
+  height: 347px;
+  left: 657px;
+  position: absolute;
+  top: 0;
+  width: 643px;
+}
+
+.lindahenriksson .div-linda-3 {
+  height: 189px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 643px;
+}
+
+.lindahenriksson .heading-resume {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  height: 30px;
+  left: 248px;
+  letter-spacing: 3px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  white-space: nowrap;
+  width: 147px;
+}
+
+.lindahenriksson .p {
+  color: #777777;
+  font-family: "Inter-Thin", Helvetica;
+  font-size: 17.6px;
+  font-weight: 100;
+  height: 27px;
+  left: 237px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 59px;
+  white-space: nowrap;
+  width: 169px;
+}
+
+.lindahenriksson .div-space-3 {
+  background-color: #000000;
+  height: 2px;
+  left: 246px;
+  position: absolute;
+  top: 137px;
+  width: 150px;
+}
+
+.lindahenriksson .div-col-lg {
+  height: 159px;
+  left: 0;
+  position: absolute;
+  top: 188px;
+  width: 643px;
+}
+
+.lindahenriksson .heading {
+  color: #af589f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 20px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: 19.8px;
+  position: absolute;
+  top: 9px;
+  white-space: nowrap;
+  width: 607px;
+}
+
+.lindahenriksson .heading-sep {
+  color: #333333;
+  font-family: "Inter-MediumItalic", Helvetica;
+  font-size: 13.1px;
+  font-style: italic;
+  font-weight: 500;
+  height: 16px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  position: absolute;
+  top: 38px;
+  white-space: nowrap;
+  width: 607px;
+}
+
+.lindahenriksson .graphical-design {
+  color: #333333;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13.5px;
+  font-weight: 400;
+  height: 86px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 59px;
+  width: 607px;
+}
+
+.lindahenriksson .heading-education {
+  color: #333333;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  height: 27px;
+  left: 330px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  position: absolute;
+  top: 188px;
+  white-space: nowrap;
+  width: 150px;
+}
+
+.lindahenriksson .div-col-lg-2 {
+  height: 131px;
+  left: 657px;
+  position: absolute;
+  top: 365px;
+  width: 643px;
+}
+
+.lindahenriksson .heading-2 {
+  color: #333333;
+  font-family: "Inter-MediumItalic", Helvetica;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  height: 16px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  position: absolute;
+  top: 38px;
+  white-space: nowrap;
+  width: 607px;
+}
+
+.lindahenriksson .designing-building {
+  color: #333333;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13.5px;
+  font-weight: 400;
+  height: 55px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 59px;
+  width: 607px;
+}
+
+.lindahenriksson .bodyfooter {
+  background-color: #2f3238;
+  height: 708px;
+  left: 0;
+  position: absolute;
+  top: 569px;
+  width: 1956px;
+}
+
+.lindahenriksson .heading-get-in {
+  color: #fec919;
+  font-family: "Inter-MediumItalic", Helvetica;
+  font-size: 27.8px;
+  font-style: italic;
+  font-weight: 500;
+  height: 33px;
+  left: 820px;
+  letter-spacing: 0;
+  line-height: 33px;
+  position: absolute;
+  text-align: center;
+  top: 208px;
+  white-space: nowrap;
+  width: 315px;
+}
+
+.lindahenriksson .text-wrapper-7 {
+  color: #af589f;
+  font-family: "Inter-Thin", Helvetica;
+  font-size: 13.3px;
+  font-weight: 100;
+  height: 28px;
+  left: 820px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 251px;
+  white-space: nowrap;
+  width: 315px;
+}
+
+.lindahenriksson .div-col-sm-2 {
+  height: 223px;
+  left: 656px;
+  position: absolute;
+  top: 290px;
+  width: 642px;
+}
+
+.lindahenriksson .heading-linda-2 {
+  color: #777777;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  height: 33px;
+  left: 164px;
+  letter-spacing: 0;
+  line-height: 33px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 318px;
+}
+
+.lindahenriksson .address-z-rich {
+  color: #777777;
+  font-family: "Inter-Thin", Helvetica;
+  font-size: 13.7px;
+  font-weight: 100;
+  height: 36px;
+  left: 284px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 44px;
+  width: 73px;
+}
+
+.lindahenriksson .address-abbr {
+  height: 17px;
+  left: 252px;
+  position: absolute;
+  top: 85px;
+  width: 6px;
+}
+
+.lindahenriksson .address {
+  color: #777777;
+  font-family: "Inter-Thin", Helvetica;
+  font-size: 13.7px;
+  font-weight: 100;
+  height: 16px;
+  left: 258px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 84px;
+  white-space: nowrap;
+  width: 131px;
+}
+
+.lindahenriksson .address-link {
+  color: #fec919;
+  font-family: "Inter-Thin", Helvetica;
+  font-size: 13.9px;
+  font-weight: 100;
+  height: 16px;
+  left: 164px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 104px;
+  white-space: nowrap;
+  width: 315px;
+}
+
+.lindahenriksson .SVG {
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: -2px;
+  width: 1920px;
+}
+
+.lindahenriksson .overlap-group-4 {
+  height: 105px;
+  position: relative;
+  top: -7px;
+}
+
+.lindahenriksson .vector {
+  height: 98px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 1920px;
+}
+
+.lindahenriksson .text-wrapper-8 {
+  color: #e0d9af;
+  font-family: "KoHo-BoldItalic", Helvetica;
+  font-size: 13.7px;
+  font-style: italic;
+  font-weight: 700;
+  height: 28px;
+  left: 816px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 315px;
+}
+
+.lindahenriksson .link {
+  background-color: #aba9e0f5;
+  border: 1px solid;
+  border-color: #cccccc;
+  border-radius: 4px;
+  height: 43px;
+  left: 820px;
+  position: absolute;
+  top: 38px;
+  width: 315px;
+}
+
+.lindahenriksson .download-resume {
+  color: #fffffff5;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 13.5px;
+  font-weight: 400;
+  height: 16px;
+  left: 97px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: 122px;
+}
+
+.lindahenriksson .footer {
+  background-color: #27292e;
+  border-bottom-style: none;
+  border-color: #c0c0c0;
+  border-left-style: none;
+  border-radius: 3px;
+  border-right-style: none;
+  border-top-style: solid;
+  border-top-width: 3px;
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 2215px;
+  width: 1956px;
+}
+
+.lindahenriksson .heading-copyright {
+  color: #c0c0c0;
+  font-family: "Inter-MediumItalic", Helvetica;
+  font-size: 11.1px;
+  font-style: italic;
+  font-weight: 500;
+  height: 14px;
+  left: 490px;
+  letter-spacing: 0;
+  line-height: 13.2px;
+  position: absolute;
+  text-align: center;
+  top: 32px;
+  white-space: nowrap;
+  width: 316px;
+}
+
+.lindahenriksson .list-link {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #cccccc;
+  border-radius: 3px;
+  height: 22px;
+  left: 934px;
+  position: absolute;
+  top: 34px;
+  width: 87px;
+}
+
+.lindahenriksson .icon {
+  height: 12px;
+  left: 8px;
+  position: absolute;
+  top: 5px;
+  width: 11px;
+}
+
+.lindahenriksson .text-wrapper-9 {
+  color: #333333;
+  font-family: "Inter-Italic", Helvetica;
+  font-size: 11.1px;
+  font-style: italic;
+  font-weight: 400;
+  height: 14px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+  width: 60px;
+}
+
+.lindahenriksson .img {
+  height: 24px;
+  left: 1341px;
+  position: absolute;
+  top: 29px;
+  width: 21px;
+}
+
+.lindahenriksson .link-2 {
+  height: 24px;
+  left: 1271px;
+  position: absolute;
+  top: 27px;
+  width: 21px;
+}
+
+.lindahenriksson .link-3 {
+  height: 24px;
+  left: 1301px;
+  position: absolute;
+  top: 30px;
+  width: 25px;
+}
+
+.lindahenriksson .card-5 {
+  height: 287px;
+  left: 1153px;
+  position: absolute;
+  top: 223px;
+  width: 320px;
+}
+
+.lindahenriksson .pic-jpg-5 {
+  background-image: url(./pic-jpg-3.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 225px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 316px;
+}
+
+.lindahenriksson .card-6 {
+  height: 287px;
+  left: 1153px;
+  position: absolute;
+  top: 566px;
+  width: 320px;
+}
+
+.lindahenriksson .pic-jpg-6 {
+  background-image: url(./pic-jpg-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 225px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 316px;
+}
+
 
 @media (min-width: 320px) {
   body {
