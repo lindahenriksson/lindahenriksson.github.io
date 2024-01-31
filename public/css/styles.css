@@ -148,12 +148,12 @@ p.box {
   color: #777; }
 
 /*cited*/
-.cited { width: 100%; 
+div .cited { width: 100%; 
         height: 100%; 
         text-align: center; 
         color: #5000FF; 
         width: 1956px; height: 450px; left: 0px; top: 0px; position: absolute; 
-        background: #14D3F0;
+        background-color: #14D3F0;
         font-size: 36px; 
         font-family: KoHo; 
         font-style: italic; 
