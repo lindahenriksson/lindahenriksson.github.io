@@ -20,7 +20,8 @@ hr {
   margin-bottom: 25px; }
 
 a {
-  color: #ffda44; ;
+  color: ##3c388e ;
+  font-weight: bold;
   text-decoration: none;
   -webkit-transition: color 0.5s ease 0s;
   -moz-transition: color 0.5s ease 0s;
@@ -147,9 +148,8 @@ p.box {
   margin-bottom: 10px;
   color: #777; }
 p.box.small {
-font-family: 'Roboto';
-background-color: #3c388e;
-  color: #ffda44; 
+font-family: 'Baskerville';
+
 }
 /*cited*/
 section#cited {
