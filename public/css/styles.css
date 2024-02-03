@@ -27,6 +27,11 @@ a {
   -moz-transition: color 0.5s ease 0s;
   -o-transition: color 0.5s ease 0s;
   transition: color 0.5s ease 0s; }
+p {
+  font-family: baskerville;
+  font-size: 12px;
+  
+}
 
 a:hover, a:focus {
   color: #a2afb3;
