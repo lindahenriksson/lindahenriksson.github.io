@@ -7,17 +7,22 @@ body, html {
   text-align: left; }
   h1 {
     
-    color: #FFF547
+    color: #FFF547;
+  }
+  h2.sub-heading { 
+    padding-bottom: 13%;
   }
 
 h4 {
-  text-transform: uppercase;
+
+padding-top: 10px;
   color: #FFF547
 }
 
 
 h4.resume {
-color: #7b48b7 ;  }
+color: #7b48b7 ;  
+}
 hr {
   margin-top: 25px;
   margin-bottom: 25px; }
@@ -44,6 +49,7 @@ p {
 .container-md
 {
   background-color: #7b48b7;
+  border-radius: 50px 20px;
 }
 
 .btn{
@@ -52,9 +58,9 @@ font-family: "Lexend";
 font-weight: 900;
 font-size: 14px;
 color: #FFF547;
-background: linear-gradient(250deg, #FFF547 20%, #fff 80%);
+background: linear-gradient(300deg, rgba(255,255,255,0.6950563524590163) 11%, rgba(255,245,71,1) 50%, rgba(255,255,255,0.6950563524590163) 89%);
 padding: 2px 20px 2px 20px;
-
+margin: 12px;
 border:  #fff 2px;
 box-shadow: rgb(192, 191, 193) 3px 3px -8px 2px;
 border-radius: 36px;
