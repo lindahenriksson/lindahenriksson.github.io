@@ -487,7 +487,8 @@ footer {
     height: 100%;
     padding: 0; }
   .intro .intro-body .brand-heading {
-    font-size: 80px; }
+    font-size: 80px; 
+  color: rebeccapurple}
   .intro .intro-body .intro-text {
     font-size: 26px;
     color: #777; }
