@@ -454,7 +454,12 @@ footer {
     overflow-x: hidden;
     background: url("../img/pic2.jpg") no-repeat center center;
     background-attachment: scroll;
+
+      
+  
   }
+ 
+   
 
   .intro {
     height: 100%;
@@ -490,18 +495,12 @@ footer {
 
   }
 
-  .btn {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+
 
 
 }
 
-}
+
 
 @media (min-width: 320px) {
   body {
@@ -521,7 +520,7 @@ footer {
   p.box.small {
     padding: 5px;
     margin-bottom: 0px;
-    text-align: left;
+    
   }
 
   .intro {
@@ -537,4 +536,5 @@ footer {
   .fa {
     padding: 0;
   }
+ 
 }
